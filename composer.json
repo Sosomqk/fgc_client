@@ -1,0 +1,19 @@
+{
+  "name": "Isikiyski/fgc_client",
+  "description": "file_get_contents curlable wrapper",
+  "require": {
+    "php": ">=8.0"
+  },
+  "authors": [
+    {
+      "name": "Miroslav Isikiyski",
+      "email": "misho8520@abv.bg"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "classmap": [
+      "."
+    ]
+  }
+}
