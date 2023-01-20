@@ -4,6 +4,10 @@ Wrapper HTTP Client utilising file_get_contents in PHP
 # Requirements
 - PHP >= 8.0
 
+# Installation
+
+`composer require isikiyski/fgc_client`
+
 # Usage
 
 ```
