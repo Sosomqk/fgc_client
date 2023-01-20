@@ -166,7 +166,7 @@ class FGCClient implements CurlableInterface
         }
 
         if (is_string($this->result)) {
-            return json_decode(json_encode($this->result), true);
+            return json_decode($this->result, true);
         }
 
         // prolly never happen, JIC
