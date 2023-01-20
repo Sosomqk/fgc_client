@@ -1,5 +1,5 @@
 {
-  "name": "Isikiyski/fgc_client",
+  "name": "isikiyski/fgc_client",
   "description": "file_get_contents curlable wrapper",
   "require": {
     "php": ">=8.0"
