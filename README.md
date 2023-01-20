@@ -7,7 +7,7 @@ Wrapper HTTP Client utilising file_get_contents in PHP
 # Usage
 
 ```
-$o = new FGCClient('https://reqres.in/api/users');
+$o = new FGCClient('https://some-url');
 
 $o->setHeaders([
     'Authorization' => 'Basic w231313331',
