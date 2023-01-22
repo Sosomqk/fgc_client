@@ -35,6 +35,7 @@ class FGCClient implements CurlableInterface
         'http' => [
             'ignore_errors' => true,
             'request_fulluri' => true,
+            'protocol_version' => '1.0',
         ],
     ];
 
