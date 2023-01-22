@@ -6,7 +6,7 @@ namespace Isikiyski\Client;
 
 interface CurlableInterface
 {
-    public function setTimeout(int $seconds);
+    public function setTimeout(int $seconds): CurlableInterface;
 
     public function setHeaders(array $headers): CurlableInterface;
 
