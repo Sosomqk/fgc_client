@@ -26,15 +26,18 @@ $o->setTimeout(60);
 $o->post('', $payload);
 
 if ($ec = $o->getErrorCode()) {
-    var_dump($ec);
+    echo $ec . PHP_EOL;
 }
 if ($em = $o->getErrorMessage()) {
-    var_dump($em);
+    echo $em . PHP_EOL;
 }
 
-var_dump($o->getResponseHeaders());
-var_dump($o->getHttpStatusCode());
-var_dumo($o->getRawResponse());
+echo $o->getResponseHeaders() . PHP_EOL;
+echo $o->getHttpStatusCode() . PHP_EOL;
+echo $o->getRawResponse() . PHP_EOL;
+//
+// ....
+//
 ```
 
 # Notes
